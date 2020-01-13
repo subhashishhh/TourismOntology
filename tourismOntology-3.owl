@@ -1,0 +1,1160 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.tourismontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.tourismontology.owl">
+    <Prefix name="" IRI="http://www.tourismontology.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="toowl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dc: author: Shiv Shakti Ghosh</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">&quot;An ontology describing different entities related to tourism with the purpose of tourism information dissemination&quot;.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dc: date : 1st February 2019</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#PublicTransit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Tundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Hostel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCheckOutTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uttar_Pradesh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSignificance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Basin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observatory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrevalentAnimals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AlcoholicDrink"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocatedAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthcareFacility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlaceofOccurence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morgue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Grassland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Supplier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Canyon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catchment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#ShortLine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasReview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handicraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#NonAlcoholicDrink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#EuropeanCuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Monument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Butte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCheckInTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Writing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAbout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Fountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Hill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrevalentPlantLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVisitorStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theater"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGeocoordinate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GovernmentBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TropicalRainForest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MentalObject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrevalentClimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AirTransportationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#HotDrink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Telpherage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tavern"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isWrittenIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#HighwaySystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCreationPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCurrency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TravelAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taj_Mahal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#ScrubForest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlaceOfWorship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brothel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AsianCuisine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TemperateRainForest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skyscrapper"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Plateau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Taiga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotelCasino"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Plain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestHouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfficeBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planetaurium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArrivalPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBasedFrom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Camp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHeightAboveSealevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feni"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeOfOccurence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AfricanCuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Celebrity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Desert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TemperateDeciduousForest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Valley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Hospice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#OceanianCuisine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#CuisinesOfTheAmericas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Arena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agra"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AfricanCuisine"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AirTransportationSystem"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AlcoholicDrink"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Arena"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasReview"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AsianCuisine"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Basin"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Butte"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Camp"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Canyon"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Celebrity"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+        <Class IRI="#MentalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBasedFrom"/>
+            <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#CuisinesOfTheAmericas"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Desert"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Drink"/>
+        <Class IRI="#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Drink"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBasedFrom"/>
+            <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#EuropeanCuisine"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasReview"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Fountain"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Grassland"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#HighwaySystem"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Hill"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Hospice"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Hostel"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#HotDrink"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasGeocoordinate"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Monument"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Mountain"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#NonAlcoholicDrink"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#OceanianCuisine"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBasedFrom"/>
+            <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Plain"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Plateau"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#PublicTransit"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#ScrubForest"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#ShortLine"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLocatedAt"/>
+            <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasGeocoordinate"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Supplier"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Taiga"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Telpherage"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TemperateDeciduousForest"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TemperateRainForest"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasArrivalPoint"/>
+            <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TravelAgent"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TravelAgent"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasReview"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TropicalRainForest"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Tundra"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Valley"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviary"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridge"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brothel"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catchment"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinic"/>
+        <Class IRI="#HealthcareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garden"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GovernmentBuilding"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handicraft"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthcareFacility"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital"/>
+        <Class IRI="#HealthcareFacility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotelCasino"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#House"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentalObject"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasReview"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morgue"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observatory"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfficeBuilding"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlaceOfWorship"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planetaurium"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestHouse"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rink"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruin"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skyscrapper"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stadium"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasReview"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tavern"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theater"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tower"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Writing"/>
+        <Class IRI="#MentalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Writing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAbout"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+                <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+                <Class IRI="#PhysicalObject"/>
+                <Class IRI="#Substance"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="toowl:Thing"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Agra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AlcoholicDrink"/>
+        <NamedIndividual IRI="#Feni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#Goa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Monument"/>
+        <NamedIndividual IRI="#Taj_Mahal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#State"/>
+        <NamedIndividual IRI="#Uttar_Pradesh"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#Agra"/>
+        <NamedIndividual IRI="#India"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isBasedFrom"/>
+        <NamedIndividual IRI="#Feni"/>
+        <NamedIndividual IRI="#Goa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#Uttar_Pradesh"/>
+        <NamedIndividual IRI="#India"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasGeocoordinate"/>
+        <NamedIndividual IRI="#Taj_Mahal"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">27°10′30″N 78°02′31″E</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#partOf"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArrivalPoint"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCreator"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlaceofOccurence"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAbout"/>
+        <Class IRI="#Writing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArrivalPoint"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCreator"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDeparturePoint"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlaceofOccurence"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBasedFrom"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLocatedAt"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasGeocoordinate"/>
+        <DataProperty IRI="#hasIdentifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasName"/>
+        <DataProperty IRI="#hasIdentifier"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasReview"/>
+        <DataProperty abbreviatedIRI="toowl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCheckInTime"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCheckOutTime"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCreationPeriod"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCurrency"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHeightAboveSealevel"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHeightAboveSealevel"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class abbreviatedIRI="toowl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrevalentAnimals"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrevalentClimate"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrevalentPlantLife"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Lodging"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="#Handicraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="#Substance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPrice"/>
+        <Class IRI="#Writing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Artifact"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Cuisine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TravelAgent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="#Substance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRating"/>
+        <Class IRI="#Writing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSignificance"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#AdministrativeDivision"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSignificance"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSignificance"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Landform"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSignificance"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSignificance"/>
+        <Class IRI="#Handicraft"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeOfOccurence"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVisitorStatistics"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVisitorStatistics"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVisitorStatistics"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Structure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVisitorStatistics"/>
+        <Class IRI="http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#TransportationSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isWrittenIn"/>
+        <Class IRI="#Writing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCheckInTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCheckOutTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCreationPeriod"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCurrency"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGeocoordinate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHeightAboveSealevel"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrevalentAnimals"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrevalentClimate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrevalentPlantLife"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrice"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRating"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasReview"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSignificance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeOfOccurence"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVisitorStatistics"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isWrittenIn"/>
+        <Datatype abbreviatedIRI="xsd:language"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Biotope geographical areas characterised by specific ecological conditions, processes, structure, and (life support) functions that physically support the organisms that live there.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/siv/ontologies/2019/1/untitled-ontology-25#Biotope</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://inspire.ec.europa.eu/theme/hb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Feni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Goa</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Goa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Taj_Mahal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Taj Mahal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Uttar_Pradesh</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Uttar Pradesh</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
